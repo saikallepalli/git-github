@@ -1,0 +1,64 @@
+ 231  git init
+  232  git remote add origin "https://github.com/saikallepalli/git-github.git"
+  233  git pull origin master
+  234  git status
+  235  git add test.txt
+  236  git status
+  237  git commit -m "test commit"
+  238  clear
+  239  git status
+  240  git add test1.txt test2.txt
+  241  git status
+  242  git ass -A
+  243  git ass - A
+  244  git add -A
+  245  git add - A
+  246  git status
+  247  git commit -a -m "hi addd 3 files"
+  248  git log
+  249  git branch firstbranch
+  250  git checkout firstbranch
+  251  git add branch.txt .
+  252  git commit -m "branchtest"
+  253  ll
+  254  ls
+  255  git checkout baster
+  256  git checkout master
+  257  ls
+  258  git merge firstbranch
+  259  ls
+  260  clear
+  261  git checkout firstbranch
+  262  git commit -a -m "modify"
+  263  cat branch.txt
+  264  git checkout master
+  265  cat branch.txt
+  266  git checkout firstbranch
+  267  git add -A
+  268  git commit -a -m "testbranchrebase"
+  269  ls
+  270  git checkout master
+  271  ls
+  272  git checkout firstbranch
+  273  git rebase master
+  274  git checkout master
+  275  git rebase firstbranch
+  276  ls
+  277  ssh-keygen
+  278  cat /c/Users/saikumar.k/.ssh/id_rsa.
+  279  cat /c/Users/saikumar.k/.ssh/id_rsa.pub.
+  280  cat /c/Users/saikumar.k/.ssh/id_rsa.pub
+  281  clear
+  282  cat /c/Users/saikumar.k/.ssh/id_rsa.pub
+  283  ssh -T git@github.com
+  284  clear
+  285  git checkout firstbranch
+  286  git push origin firstbranch
+  287  git checkout master
+  288  git push origin master
+  289  git branch
+  290  git fetch
+  291  git pull
+  292  git pull firstbranch
+  293  git pull origin firstbranch
+  294  history
